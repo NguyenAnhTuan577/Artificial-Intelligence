@@ -1,0 +1,264 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayes 
+Relation:     zoodata_1-weka.filters.unsupervised.attribute.Remove-R1
+Instances:    101
+Attributes:   17
+              hair
+              feathers
+              eggs
+              milk
+              airborne
+              aquatic
+              predator
+              toothed
+              backbone
+              breathes
+              venomous
+              fins
+              legs
+              tail
+              domestic
+              catsize
+              type
+Test mode:    evaluate on training data
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                   Class
+Attribute         Mammal      Fish      Bird  Arthopod    Insect Amphibian   Reptile
+                  (0.39)    (0.13)    (0.19)     (0.1)    (0.08)    (0.05)    (0.06)
+=====================================================================================
+hair
+  0                   3.0      14.0      21.0      11.0       5.0       5.0       6.0
+  1                  40.0       1.0       1.0       1.0       5.0       1.0       1.0
+  [total]            43.0      15.0      22.0      12.0      10.0       6.0       7.0
+
+feathers
+  0                  42.0      14.0       1.0      11.0       9.0       5.0       6.0
+  1                   1.0       1.0      21.0       1.0       1.0       1.0       1.0
+  [total]            43.0      15.0      22.0      12.0      10.0       6.0       7.0
+
+eggs
+  0                  41.0       1.0       1.0       2.0       1.0       1.0       2.0
+  1                   2.0      14.0      21.0      10.0       9.0       5.0       5.0
+  [total]            43.0      15.0      22.0      12.0      10.0       6.0       7.0
+
+milk
+  0                   1.0      14.0      21.0      11.0       9.0       5.0       6.0
+  1                  42.0       1.0       1.0       1.0       1.0       1.0       1.0
+  [total]            43.0      15.0      22.0      12.0      10.0       6.0       7.0
+
+airborne
+  0                  40.0      14.0       5.0      11.0       3.0       5.0       6.0
+  1                   3.0       1.0      17.0       1.0       7.0       1.0       1.0
+  [total]            43.0      15.0      22.0      12.0      10.0       6.0       7.0
+
+aquatic
+  0                  36.0       1.0      15.0       5.0       9.0       1.0       5.0
+  1                   7.0      14.0       7.0       7.0       1.0       5.0       2.0
+  [total]            43.0      15.0      22.0      12.0      10.0       6.0       7.0
+
+predator
+  0                  20.0       5.0      12.0       3.0       8.0       2.0       2.0
+  1                  23.0      10.0      10.0       9.0       2.0       4.0       5.0
+  [total]            43.0      15.0      22.0      12.0      10.0       6.0       7.0
+
+toothed
+  0                   2.0       1.0      21.0      11.0       9.0       1.0       2.0
+  1                  41.0      14.0       1.0       1.0       1.0       5.0       5.0
+  [total]            43.0      15.0      22.0      12.0      10.0       6.0       7.0
+
+backbone
+  0                   1.0       1.0       1.0      11.0       9.0       1.0       1.0
+  1                  42.0      14.0      21.0       1.0       1.0       5.0       6.0
+  [total]            43.0      15.0      22.0      12.0      10.0       6.0       7.0
+
+breathes
+  0                   1.0      14.0       1.0       8.0       1.0       1.0       2.0
+  1                  42.0       1.0      21.0       4.0       9.0       5.0       5.0
+  [total]            43.0      15.0      22.0      12.0      10.0       6.0       7.0
+
+venomous
+  0                  42.0      13.0      21.0       9.0       7.0       4.0       4.0
+  1                   1.0       2.0       1.0       3.0       3.0       2.0       3.0
+  [total]            43.0      15.0      22.0      12.0      10.0       6.0       7.0
+
+fins
+  0                  38.0       1.0      21.0      11.0       9.0       5.0       6.0
+  1                   5.0      14.0       1.0       1.0       1.0       1.0       1.0
+  [total]            43.0      15.0      22.0      12.0      10.0       6.0       7.0
+
+legs
+  0                   4.0      14.0       1.0       5.0       1.0       1.0       4.0
+  2                   8.0       1.0      21.0       1.0       1.0       1.0       1.0
+  4                  32.0       1.0       1.0       2.0       1.0       5.0       3.0
+  5                   1.0       1.0       1.0       2.0       1.0       1.0       1.0
+  6                   1.0       1.0       1.0       3.0       9.0       1.0       1.0
+  8                   1.0       1.0       1.0       3.0       1.0       1.0       1.0
+  [total]            47.0      19.0      26.0      16.0      14.0      10.0      11.0
+
+tail
+  0                   7.0       1.0       1.0      10.0       9.0       4.0       1.0
+  1                  36.0      14.0      21.0       2.0       1.0       2.0       6.0
+  [total]            43.0      15.0      22.0      12.0      10.0       6.0       7.0
+
+domestic
+  0                  34.0      13.0      18.0      11.0       8.0       5.0       6.0
+  1                   9.0       2.0       4.0       1.0       2.0       1.0       1.0
+  [total]            43.0      15.0      22.0      12.0      10.0       6.0       7.0
+
+catsize
+  0                  10.0      10.0      15.0      10.0       9.0       5.0       5.0
+  1                  33.0       5.0       7.0       2.0       1.0       1.0       2.0
+  [total]            43.0      15.0      22.0      12.0      10.0       6.0       7.0
+
+
+
+Time taken to build model: 0 seconds
+
+=== Predictions on training set ===
+
+    inst#     actual  predicted error prediction
+        1   1:Mammal   1:Mammal       1 
+        2   1:Mammal   1:Mammal       1 
+        3     2:Fish     2:Fish       0.999 
+        4   1:Mammal   1:Mammal       1 
+        5   1:Mammal   1:Mammal       1 
+        6   1:Mammal   1:Mammal       1 
+        7   1:Mammal   1:Mammal       1 
+        8     2:Fish     2:Fish       0.999 
+        9     2:Fish     2:Fish       0.999 
+       10   1:Mammal   1:Mammal       1 
+       11   1:Mammal   1:Mammal       1 
+       12     3:Bird     3:Bird       1 
+       13     2:Fish     2:Fish       0.999 
+       14 4:Arthopod 4:Arthopod       0.996 
+       15 4:Arthopod 4:Arthopod       0.991 
+       16 4:Arthopod 4:Arthopod       0.996 
+       17     3:Bird     3:Bird       1 
+       18   1:Mammal   1:Mammal       1 
+       19     2:Fish     2:Fish       0.999 
+       20   1:Mammal   1:Mammal       0.711 
+       21     3:Bird     3:Bird       1 
+       22     3:Bird     3:Bird       1 
+       23   1:Mammal   1:Mammal       1 
+       24     3:Bird     3:Bird       1 
+       25   5:Insect   5:Insect       0.897 
+       26 6:Amphibian 6:Amphibian       0.967 
+       27 6:Amphibian 6:Amphibian       0.955 
+       28   1:Mammal   1:Mammal       0.999 
+       29   1:Mammal   1:Mammal       1 
+       30   1:Mammal   1:Mammal       1 
+       31   5:Insect   5:Insect       0.995 
+       32   1:Mammal   1:Mammal       1 
+       33   1:Mammal   1:Mammal       1 
+       34     3:Bird     3:Bird       1 
+       35     2:Fish     2:Fish       0.999 
+       36   1:Mammal   1:Mammal       1 
+       37   1:Mammal   1:Mammal       1 
+       38     3:Bird     3:Bird       1 
+       39     2:Fish     2:Fish       0.999 
+       40   5:Insect   5:Insect       1 
+       41   5:Insect   5:Insect       1 
+       42     3:Bird     3:Bird       0.998 
+       43   5:Insect   5:Insect       0.949 
+       44     3:Bird     3:Bird       1 
+       45   1:Mammal   1:Mammal       1 
+       46   1:Mammal   1:Mammal       1 
+       47 4:Arthopod 4:Arthopod       0.996 
+       48   1:Mammal   1:Mammal       1 
+       49   1:Mammal   1:Mammal       1 
+       50   1:Mammal   1:Mammal       1 
+       51   1:Mammal   1:Mammal       1 
+       52   5:Insect   5:Insect       1 
+       53 6:Amphibian 6:Amphibian       0.732 
+       54 4:Arthopod 4:Arthopod       0.998 
+       55   1:Mammal   1:Mammal       1 
+       56   1:Mammal   1:Mammal       1 
+       57     3:Bird     3:Bird       0.999 
+       58     3:Bird     3:Bird       1 
+       59     3:Bird     3:Bird       0.998 
+       60     3:Bird     3:Bird       1 
+       61     2:Fish     2:Fish       0.999 
+       62     2:Fish     2:Fish       0.999 
+       63  7:Reptile  7:Reptile       0.974 
+       64   1:Mammal   1:Mammal       0.933 
+       65   1:Mammal   1:Mammal       1 
+       66   1:Mammal   1:Mammal       1 
+       67   1:Mammal   1:Mammal       0.711 
+       68   1:Mammal   1:Mammal       1 
+       69   1:Mammal   1:Mammal       1 
+       70   1:Mammal   1:Mammal       1 
+       71   1:Mammal   1:Mammal       1 
+       72     3:Bird     3:Bird       0.998 
+       73 4:Arthopod 4:Arthopod       0.698 
+       74     2:Fish     2:Fish       0.999 
+       75   1:Mammal   1:Mammal       0.996 
+       76   1:Mammal   1:Mammal       1 
+       77  7:Reptile  7:Reptile       0.614 
+       78 4:Arthopod 4:Arthopod       0.998 
+       79     3:Bird     3:Bird       1 
+       80     3:Bird     3:Bird       1 
+       81  7:Reptile  7:Reptile       0.952 
+       82 4:Arthopod 4:Arthopod       0.627 
+       83     2:Fish     2:Fish       0.999 
+       84     3:Bird     3:Bird       1 
+       85   1:Mammal   1:Mammal       1 
+       86 4:Arthopod 4:Arthopod       0.998 
+       87     2:Fish     2:Fish       0.997 
+       88     3:Bird     3:Bird       1 
+       89   5:Insect   5:Insect       0.897 
+       90 6:Amphibian 6:Amphibian       0.974 
+       91  7:Reptile  7:Reptile       0.75 
+       92  7:Reptile  7:Reptile       0.809 
+       93     2:Fish     2:Fish       0.999 
+       94   1:Mammal   1:Mammal       0.999 
+       95   1:Mammal   1:Mammal       1 
+       96     3:Bird     3:Bird       1 
+       97   1:Mammal   1:Mammal       1 
+       98   5:Insect   5:Insect       1 
+       99   1:Mammal   1:Mammal       1 
+      100 4:Arthopod 4:Arthopod       0.627 
+      101     3:Bird     3:Bird       1 
+
+=== Evaluation on training set ===
+
+Time taken to test model on training data: 0.16 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         101              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0.0093
+Root mean squared error                  0.0478
+Relative absolute error                  4.2516 %
+Root relative squared error             14.4996 %
+Total Number of Instances              101     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Mammal
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Fish
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Bird
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Arthopod
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Insect
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Amphibian
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Reptile
+Weighted Avg.    1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g   <-- classified as
+ 41  0  0  0  0  0  0 |  a = Mammal
+  0 13  0  0  0  0  0 |  b = Fish
+  0  0 20  0  0  0  0 |  c = Bird
+  0  0  0 10  0  0  0 |  d = Arthopod
+  0  0  0  0  8  0  0 |  e = Insect
+  0  0  0  0  0  4  0 |  f = Amphibian
+  0  0  0  0  0  0  5 |  g = Reptile
+

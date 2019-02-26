@@ -1,0 +1,88 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.BFTree -M 2 -N 5 -C 1.0 -P POSTPRUNED -S 1
+Relation:     zoodata_1-weka.filters.unsupervised.attribute.Remove-R1
+Instances:    101
+Attributes:   17
+              hair
+              feathers
+              eggs
+              milk
+              airborne
+              aquatic
+              predator
+              toothed
+              backbone
+              breathes
+              venomous
+              fins
+              legs
+              tail
+              domestic
+              catsize
+              type
+Test mode:    evaluate on training data
+
+=== Classifier model (full training set) ===
+
+Best-First Decision Tree
+
+milk=(1): Mammal(41.0/0.0)
+milk!=(1)
+|  feathers=(1): Bird(20.0/0.0)
+|  feathers!=(1)
+|  |  fins=(1): Fish(13.0/0.0)
+|  |  fins!=(1)
+|  |  |  backbone=(1)
+|  |  |  |  aquatic=(1): Amphibian(4.0/1.0)
+|  |  |  |  aquatic!=(1): Reptile(4.0/0.0)
+|  |  |  backbone!=(1)
+|  |  |  |  legs=(6)|(2)
+|  |  |  |  |  aquatic=(1): Arthopod(2.0/0.0)
+|  |  |  |  |  aquatic!=(1): Insect(8.0/0.0)
+|  |  |  |  legs!=(6)|(2): Arthopod(8.0/0.0)
+
+Size of the Tree: 15
+
+Number of Leaf Nodes: 8
+
+Time taken to build model: 0.03 seconds
+
+=== Evaluation on training set ===
+
+Time taken to test model on training data: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         100               99.0099 %
+Incorrectly Classified Instances         1                0.9901 %
+Kappa statistic                          0.987 
+Mean absolute error                      0.0045
+Root mean squared error                  0.0476
+Relative absolute error                  2.069  %
+Root relative squared error             14.4399 %
+Total Number of Instances              101     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Mammal
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Fish
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Bird
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Arthopod
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Insect
+                 1.000    0.010    0.800      1.000    0.889      0.890    0.995     0.800     Amphibian
+                 0.800    0.000    1.000      0.800    0.889      0.890    0.996     0.911     Reptile
+Weighted Avg.    0.990    0.000    0.992      0.990    0.990      0.990    1.000     0.988     
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g   <-- classified as
+ 41  0  0  0  0  0  0 |  a = Mammal
+  0 13  0  0  0  0  0 |  b = Fish
+  0  0 20  0  0  0  0 |  c = Bird
+  0  0  0 10  0  0  0 |  d = Arthopod
+  0  0  0  0  8  0  0 |  e = Insect
+  0  0  0  0  0  4  0 |  f = Amphibian
+  0  0  0  0  0  1  4 |  g = Reptile
+
